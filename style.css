@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/casinoPic.jfif);
+    background-size: cover 800PX;;
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;  
+}
+.Game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/Moonlit\ Asteroid.jpg);
+    opacity: 0.7;
+    width: 850px;
+    height: 450px;
+    position: absolute;
+    top: 25%;
+    left: 17%;
+    
+     
+}
+@keyframes Title {
+    25% {color: cornsilk;}
+    75% {color:orange  ;}
+  }
+
+#Slogan{
+     display: flex;
+    background-color: transparent;
+} 
+#Slogan img{
+    margin-right: 80px
+}
+#Slogan h1{
+    animation: Title 2s infinite;
+    margin-left: 40%;
+    margin-top: 30px; 
+    color: red;
+    
+}
+#chip{
+    margin-left: 100px ;
+    height: 50px;
+    width: 50px;
+}
+#Brain{
+    height:80px ;
+    width: 80px;
+    
+}
+.brainGuess{
+    display: flex;
+}
+#secondePart{
+    margin-top: 60px;
+}
+#secondePart h3 input {
+    background-color: rgb(131, 175, 131);
+    width: 70px;
+    height: 26px;
+    border:2px solid rgb(139, 165, 139);
+    border-radius: 5px;
+    margin: 0px 0px 0px 45px;
+    
+}
+button:hover{ 
+    background-color: brown;   
+}
+button{
+    color: black;
+    font-weight: bold;
+    height:30px ;
+    width: 80px;
+    margin: 30px 0px 20px 100px;
+    border-radius: 5px;
+}
+textarea{
+    color: white;
+    margin: 0px 50px;
+}
+
+
