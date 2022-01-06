@@ -9,55 +9,54 @@ body{
     background-repeat: no-repeat;
     height: auto;
     width: auto;  
+    opacity: 1;
 }
+
 .Game{
     display: flex;
     flex-direction: column;
+    border-radius: 15px;
     align-items: center;
-    background-image: url(images/Moonlit\ Asteroid.jpg);
-    opacity: 0.7;
+    background-color: rgba(41, 93, 114, 0.6);
     width: 850px;
     height: 450px;
     position: absolute;
     top: 25%;
-    left: 17%;
-    
-     
+    left: 19%;   
 }
 @keyframes Title {
     25% {color: cornsilk;}
     75% {color:orange  ;}
   }
 
-#Slogan{
-     display: flex;
-    background-color: transparent;
-} 
-#Slogan img{
-    margin-right: 80px
+#Slogan {
+    background-color:rgba(29, 56, 56, 0.658);
 }
 #Slogan h1{
     animation: Title 2s infinite;
     margin-left: 40%;
     margin-top: 30px; 
-    color: red;
-    
+    color: rgba(195, 197, 174, 0.692);   
 }
 #chip{
-    margin-left: 100px ;
-    height: 50px;
+    height: 5px;
     width: 50px;
 }
 #Brain{
+    margin-right: 370px;
     height:80px ;
-    width: 80px;
-    
+    width: 80px; 
 }
 .brainGuess{
     display: flex;
 }
+
 #secondePart{
     margin-top: 60px;
+}
+.chip{
+    height: 50px;
+    width: 50px;
 }
 #secondePart h3 input {
     background-color: rgb(131, 175, 131);
